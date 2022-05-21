@@ -1,2 +1,0 @@
-# TouchShopAki
-TouchShop from Androweb

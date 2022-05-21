@@ -1,26 +1,4 @@
 <resources>
-    <!--  <string name="app_name">TouchAppUI</string>
-      <string name="FormNo">FormNo :</string>
-      <string name="Name">Name</string>
-      <string name="NickName">NickName</string>
-      <string name="Bracket">Bracket</string>
-      <string name="Material">Material</string>
-      <string name="Mark">Mark</string>
-      <string name="touch">touch</string>
-      <string name="File">File</string>
-      <string name="Date">Date</string>
-      <string name="Submit">Submit</string>
-
-
-      <string name="EnterFormNo">Enter_FormNo</string>
-      <string name="EnterName">Enter_Name</string>
-      <string name="EnterNickName">Enter_NickName</string>
-      <string name="EnterBracket">Enter_Bracket</string>
-      <string name="EnterMaterial">Enter_Material</string>
-      <string name="EnterMark">Enter_Mark</string>
-      <string name="Entertouch">Enter_touch</string>
-      <string name="EnterFile">Enter_File</string>
-      <string name="EnterDate">Enter_Date</string>-->
 
     <string name="app_name">App</string>
     <string name="form_no_lbl">Form No:</string>
@@ -64,8 +42,5 @@
     <string name="login">Login</string>
     <string name="email_or_username">Email or Username</string>
     <string name="password_input">Password</string>
-
-
-
 
 </resources>
