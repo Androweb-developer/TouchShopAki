@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/new_entrypage_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SavedForms"
+    tools:textAlignment="textEnd">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/grid_layout"
+        android:layout_width="393dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="9dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/new_formentry_lbl"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="2sp"
+            android:fontFamily="@font/alatsi"
+            android:text="@string/new_form_entry"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            app:layout_column="0"
+            app:layout_row="0" />
+
+        <Button
+            android:id="@+id/form_refresh_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/refresh"
+            app:layout_column="2"
+            app:layout_row="0"
+            tools:ignore="TouchTargetSizeCheck" />
+    </androidx.gridlayout.widget.GridLayout>
+
+    <LinearLayout
+        android:id="@+id/form_btn_view"
+        android:layout_width="409dp"
+        android:layout_height="615dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="48dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/grid_layout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
